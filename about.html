@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Portfolio-Bishwajit</title>
+</head>
+
+<body>
+
+    <div
+        class="bg-gradient-to-r from-cyan-500 to-blue-300 grid grid-cols-1 lg:flex items-center justify-between px-20 py-3 text-white">
+
+        <h2 class="text-3xl text-center">Bishwajit Mondal</h2>
+
+        <nav class="text-xl grid grid-cols-1 lg:flex text-center">
+            <a class="p-5" href="index.html">Home</a>
+            <a class="p-5" href="about.html">About Me</a>
+            <a class="p-5" href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <!-- banner area  -->
+
+    <div
+        class="bg-gradient-to-l from-indigo-500 grid py-24 px-5 grid-cols-1 bg-purple-100 lg:flex items-center justify-between lg:px-20 gap-10 py-3">
+        <div class="w-full order-2 lg:order-1 lg:w-3/4">
+            <h1 class="text-4xl font-semibold">Bishwajit Mondal</h1>
+            <h3 class="text-2xl py-5">Frontend Web Developer</h3>
+            <p class="text-xl mb-20">I have a strong interest in playing with code for frontend as well as backend in an
+                organized way. I always try to read updates of trending technologies to keep me fit for the future. I am
+                talented to work well both in a team as well as an individual and able to work well under pressure with
+                maintaining deadlines. I am trying to step ahead to be an expert Full Stack Web Developer gathering
+                knowledge.</p>
+            <h2>My Experties:</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+        <div class="w-full order-1 flex items-center lg:justify-end lg:order-2 lg:w-1/2">
+            <img class="w-full lg:w-9/12 rounded-2xl" src="images/bishwa.png" alt="">
+        </div>
+    </div>
+
+
+
+
+    <!-- GET IN TOUCH  -->
+    <div id="contact" class="bg-gradient-to-r from-green-400 to-blue-500">
+        <h2 class="text-center font-bold text-5xl pt-20">Contact Me</h2>
+        <div class="grid px-2 grid-cols-1 py-20 lg:grid lg:grid-cols-2 gap-10 lg:px-20  items-center ">
+            <div class="text-purple-700">
+                <div class="flex items-center">
+                    <img class="mr-5" src="mycollection/home.png" alt="">
+                    <span>Gazipur, Bangladesh</span>
+                </div>
+                <div class="flex py-5 items-center">
+                    <img class="mr-5" src="mycollection/telephone.png" alt="">
+                    <span>+880 1712 755278</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="mr-5" src="mycollection/email.png" alt="">
+                    <span>bishwajit.mondal1970@gmail.com</span>
+                </div>
+            </div>
+            <div>
+                <form action="https://formsubmit.co/mailtobishwa15@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Email submission!">
+                    <input required placeholder="Your Name" class="border-2 mb-5 p-3 rounded w-full" type="text"
+                        name="name" id="">
+                    <input type="hidden" name="_next"
+                        value="https://bishwajit70.github.io/my-portfolio/pages/thanks.html">
+                    <input required placeholder="Your Email" class="border-2 mb-5 p-3 rounded w-full" type="email"
+                        name="email" id="">
+                    <textarea placeholder="Say Something ....." class="border-2 rounded mb-5 p-3  w-full" name="message"
+                        id="message" cols="30" rows="3"></textarea>
+                    <button class="bg-orange-500 rounded-lg px-10 py-3 text-center text-white"
+                        type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer area -->
+    <div class="text-center py-10 text-white bg-gradient-to-r from-cyan-500 to-blue-300">
+        <p>&copy; All Rights Reserved</p>
+    </div>
+
+
+</body>
+
+</html>
