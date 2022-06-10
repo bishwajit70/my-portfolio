@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Project One</title>
+</head>
+
+<body>
+    <!-- navigatoin  -->
+    <div
+        class="bg-gradient-to-r from-cyan-500 to-blue-300 grid grid-cols-1 lg:flex items-center justify-between px-20 py-3 text-white">
+
+        <h2 class="text-3xl text-center">Bishwajit Mondal</h2>
+
+        <nav class="text-xl grid grid-cols-1 lg:flex text-center">
+            <a class="p-5" href="index.html">Home</a>
+            <a class="p-5" href="#projects">Projects</a>
+            <a class="p-5" href="#blogs">Blogs</a>
+            <a class="p-5" href="#contact">Contact</a>
+        </nav>
+    </div>
+    <!-- project details -->
+    <div class="grid gird-cols-1 px-3 lg:grid-cols-2 lg:px-20 gap-10">
+        <img src="img/project2/1.PNG" alt="">
+        <img src="img/project2/2.PNG" alt="">
+        <img src="img/project2/3.PNG" alt="">
+    </div>
+    <div class="grid gird-cols-1 px-3 lg:px-20">
+        <h2 class="text-xl font-bold py-3">Details of the Project</h2>
+        <p>This a manufacturere app to maintain produced product. In this app admin user can add product and normal user
+            can buy products. Can update profile both admin and normal user. others features are as below:</p>
+    </div>
+    <div class="grid gird-cols-1 px-3 lg:px-20">
+        <h2 class="text-xl font-bold py-3">Features</h2>
+        <ul>
+            <li>For Normal User (Dashboard features)</li>
+            <li>User can login both social or email/password</li>
+            <li>User can go to purchase page to order any product</li>
+            <li>User also can add his/her review</li>
+            <li>User can add or update his profile</li>
+            <li>User can see which product(s) are ordered</li>
+            <li>User also can delete any product from order page</li>
+            <li>User also can see the paymenet page with the pay button</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <h2 class="text-xl font-bold py-3">For Admin User (Dashboard features)</h2>
+        <ul>
+            <li></li>
+            <li>Admin can login both social or email/password</li>
+            <li>Admin user can see his/her profile</li>
+            <li>Admin user can see other page on dashboard except My Profile page</li>
+            <li>Admin can not see Add Review and My order Page</li>
+            <li>Admin can see Manage All Order Page</li>
+            <li>Admin can see All Users page</li>
+            <li>Admin can make any normal user as Admin</li>
+            <li>Admin can add product</li>
+            <li>Admin can see manage product and he can delete any product</li>
+            <li></li>
+        </ul>
+        <h2 class="text-xl font-bold py-3">On Home Page</h2>
+        <ul>
+            <li>A Banner, Product for buy, A Summary, Clients Review, A welcome Area and A Provided Products will be
+                seen</li>
+            <li>A Footer also added in brief</li>
+            <li>A Blog page is added</li>
+            <li>Brief Portfolio also added</li>
+        </ul>
+
+
+
+
+
+
+    </div>
+    <div class="grid gird-cols-1 px-3 lg:px-20">
+        <h2 class="text-xl font-bold py-3">Used Technologies</h2>
+        <ul>
+            <li>React Query</li>
+            <li>Firebase for hosting and athuntication</li>
+            <li>react-firebase-hooks</li>
+            <li>react-hook-form</li>
+            <li>react-icons</li>
+            <li>react-toastify</li>
+            <li>tailwind.css</li>
+            <li>daisyUI</li>
+            <li>daisyUI modal</li>
+        </ul>
+
+    </div>
+    <div class="text-center py-10 text-white bg-gradient-to-r from-cyan-500 to-blue-300">
+        <p>&copy; All Rights Reserved</p>
+    </div>
+</body>
+
+</html>

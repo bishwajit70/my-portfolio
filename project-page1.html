@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Project One</title>
+</head>
+
+<body>
+    <!-- navigatoin  -->
+    <div
+        class="bg-gradient-to-r from-cyan-500 to-blue-300 grid grid-cols-1 lg:flex items-center justify-between px-20 py-3 text-white">
+
+        <h2 class="text-3xl text-center">Bishwajit Mondal</h2>
+
+        <nav class="text-xl grid grid-cols-1 lg:flex text-center">
+            <a class="p-5" href="index.html">Home</a>
+            <a class="p-5" href="#projects">Projects</a>
+            <a class="p-5" href="#blogs">Blogs</a>
+            <a class="p-5" href="#contact">Contact</a>
+        </nav>
+    </div>
+    <!-- project details -->
+    <div class="grid gird-cols-1 px-3 lg:grid-cols-3 lg:px-20 gap-10">
+        <img src="img/project1/1.PNG" alt="">
+        <img src="img/project1/2.PNG" alt="">
+        <img src="img/project1/3.PNG" alt="">
+    </div>
+    <div class="grid gird-cols-1 px-3 lg:px-20">
+        <h2 class="text-xl font-bold py-3">Details of the Project</h2>
+        <p>We are maintaining a warehouse/inventory of spices. We delivery our product with a quick response and maintain the best service rule. You can trust us. We are ensureing the quality products with quality services.</p>
+    </div>
+    <div class="grid gird-cols-1 px-3 lg:px-20">
+        <h2 class="text-xl font-bold py-3">Features</h2>
+        <ul>
+            <li>Spices House App is designed to maintain a spices warehouse</li>
+            <li>Here user can register with an email and password and login with that same email and password</li>
+            <li>User can also login with social login system</li>
+            <li>User can add items with name, image, pirce, quantity, supplier name etc.</li>
+            <li>User can restock items with a quantity</li>
+            <li>User also can view his/her items</li>
+            <li>User can provide information for future.</li>
+        </ul>
+    </div>
+    <div class="grid gird-cols-1 px-3 lg:px-20">
+        <h2 class="text-xl font-bold py-3">Used Technologies</h2>
+        <ul>
+            <li>ReactJS</li>
+            <li>MongoDB</li>
+            <li>Firebase</li>
+            <li>ExpressJS</li>
+            <li>TailwindCSS</li>
+        </ul>
+    </div>
+    <div class="text-center py-10 text-white bg-gradient-to-r from-cyan-500 to-blue-300">
+        <p>&copy; All Rights Reserved</p>
+    </div>
+</body>
+
+</html>
